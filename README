@@ -1,0 +1,31 @@
+Web Portal for CLient
+
+The portal has been developed based on the CodeIgniter framework. The following where developed by me exclusively:
+css:
+	gportal.css
+	login.css
+images
+views:
+	about.php
+	audit.php - not ready for production
+	database.php
+	home.php 
+	login.php
+	management.php
+	more_info.php
+	price_list.php - not ready for production
+	quality_control_management.php
+	tools.php
+	user_area.php
+Controllers:
+	gportal_ctrl.php
+	login.php
+Models:
+	access_mdl.php
+	database_mdl.php
+libraries:
+	Business.php
+	Database_search.php
+	
+	
+The web portal connects to a database which contains all the data that the tool attempts to obtain and display, the database was developed in MySQL and was also developed by me.
