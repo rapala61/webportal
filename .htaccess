@@ -1,0 +1,9 @@
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|images|public|templates|libraries|js|css|robots\.txt)
+RewriteRule ^(.*)$ /geeportal/index.php/$1 [L]
+
+
+
+
+
